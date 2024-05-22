@@ -2,17 +2,48 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
-    background-color:black;
+    background-image: url(https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
-h1, p{
-    color: red;
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 32px;
+}
+
+.logo img{
+    max-height: 40px;
+}
+
+.box-acess{
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn-acess{
+    background-color: red;
+    padding: 8px 16px;
+    border-radius: 3px;
+    color: white;
+}
+.main-content{
+    color: white;
 }
